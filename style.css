@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500&family=Lexend:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Squada+One&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+ overflow-x: hidden; 
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 8%;
+}
+.shapes {
+  display: flex;
+  flex-direction: row;
+}
+.shapes img {
+  width: 16px;
+  position: relative;
+  bottom: 0.9rem;
+  left: 0.5rem;
+}
+.shapes h2{
+  color: #2a4096;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar li {
+  margin: 20px;
+  list-style: none;
+  position: relative;
+  right: 8rem;
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+}
+#li-one {
+  border: 2px solid #2a4096;
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+}
+#li-one a {
+  text-decoration: none;
+  color: #2a4096;
+  font-weight: 500;
+  position: relative;
+  top: 0.2rem;
+}
+#li-two {
+  background-color: #2a4096;
+  border: 2px solid #2a4096;
+  border-radius: 20px;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+}
+#li-two a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
+  top: 0.2rem;
+}
+
+/* body pg1*/
+.container-body {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 7rem;
+}
+.right {
+  width: 50%;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 2rem;
+}
+.left h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #2a4096;
+}
+.left small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  position: relative;
+  bottom: 1.3rem;
+  color: grey;
+}
+.button {
+  position: relative;
+  right: 3rem;
+}
+
+input {
+  width: 320px;
+  height: 38px;
+  background: #ffffff;
+  border: 2px solid rgba(42, 64, 150, 0.35);
+  border-radius: 30px;
+  color: lightslategray;
+  padding-left: 2px;
+  outline: #2a4096;
+}
+.button button {
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #2a4096;
+  border: none;
+}
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom-text {
+  position: relative;
+  bottom: 15rem;
+}
+.bottom-text ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bottom-text li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 72px;
+  color: #d4d9ea;
+}
+
+/* mini section */
+
+.mini-sect {
+  width: 100%;
+  height: 50vh;
+  background-color: #2a4096;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mini-sect h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.mini-sect span {
+  color: rgb(255, 175, 27);
+}
+.mini-sect small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 1rem;
+}
+
+/* sect two */
+
+.sect-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  left: 120px;
+  top: 2rem;
+}
+.sect-two h3,
+.sect3 h3,
+.sect4 h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #2a4096;
+}
+.sect-two h3,
+.sect-two small {
+  bottom: 4rem;
+  position: relative;
+}
+.sect-two small,
+.sect3 small {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #121316;
+  bottom: 6rem;
+  position: relative;
+}
+.demo {
+  position: relative;
+  top: 15%;
+  right: 91%;
+  display: flex;
+  flex-direction: row;
+}
+.demo h5 {
+  white-space: nowrap;
+  margin: 5px;
+  font-weight: 500;
+  color: #2a4096;
+}
+
+/* sect 3 */
+
+.sect3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+.sect3 small {
+  top: -1.5rem;
+}
+.sect3 .demo2 {
+  position: relative;
+  top: 35%;
+  right: 42%;
+  display: flex;
+  flex-direction: row;
+}
+.demo2 h5 {
+  color: #2a4096;
+  margin: 3px;
+}
+
+/* mini-section3 */
+
+.mini-sect2 {
+  display: flex;
+  flex-direction: column;
+  width: 110%;
+  height: 30vh;
+  background: #d4d9ea;
+  align-items: center;
+  justify-content: center;
+}
+.mini-sect2 h5 {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* section 4 */
+
+.sect4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+}
+.sect4 h3 {
+  color: #121316;
+}
+.btn button {
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #2a4096;
+  border: none;
+}
+.sect4 small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #3a3a3d;
+  margin-top: 1rem;
+}
+
+/* footer section */
+
+.footer_wrapper{
+display: flex;
+flex-direction: row;
+/* align-items: center; */
+justify-content: space-evenly;
+width: 100%;
+height: 25vh;
+}
+hr{
+  width: 90%;
+}
+footer .shapes{
+  position: relative;
+  left: 4rem;
+}
+footer .shapes h2{
+  color: #2a4096;
+}
+footer .shapes img{
+  position: relative;
+  top: -0rem;
+}
+footer li{
+list-style: none;
+position: relative;
+right: 7rem;
+font-size: 12px;
+color: #121316;
+margin: 5px;
+}
+#prod, #comp, #res{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.footer_icon img{
+  margin: 15px;
+}
+
+/* media querries for mobile device */
